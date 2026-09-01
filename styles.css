@@ -1,4 +1,26 @@
 body {
     display: flex;
     flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    gap: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+.header {
+    display: flex;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
 }
