@@ -26,8 +26,30 @@ a {
     flex: 0 0 auto;
 }
 
+.footer {
+    height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer p {
+    flex: 0 0 auto;
+}
+
 .logo {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
+}
+
+.content div{
+    height: 400px;
+}
+
+.section-3 {
+    background-color: #E5E7EB;
+}
+.section-2, .section-4 {
+    background-color: #ffffff;
 }
