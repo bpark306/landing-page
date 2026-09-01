@@ -43,15 +43,26 @@ a {
 }
 
 .content div{
-    height: 400px;
+    height: 350px;
 }
 
+.main-text {
+    width: 300px;
+}
 .section-1 {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 0px 72px;
+    gap: 32px;
+}
+
+.subsection-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
 }
 .section-3 {
     background-color: #E5E7EB;
@@ -60,8 +71,20 @@ a {
     background-color: #ffffff;
 }
 
-.subsection-1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.section-1 button {
+    border: none;
+}
+
+button {
+    background-color: #3882F6;
+    padding: 8px 32px;
+    border-radius: 8px;
+    color: white;
+    flex: 0 0 auto;
+    width: 112px;
+}
+
+img {
+    width: auto;
+    height: 250px;
 }
