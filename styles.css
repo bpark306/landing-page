@@ -1,9 +1,14 @@
-body {
+.header {
+    height: 72px;
     display: flex;
-    flex-direction: column;
-    background-color: #1F2937;
-    color: white;
-    font-family: 'Roboto';
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
 }
 
 ul {
@@ -17,12 +22,15 @@ a {
     color: white;
     text-decoration: none;
 }
-.header {
-    height: 72px;
+
+body {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    background-color: #1F2937;
+    color: white;
+    font-family: 'Roboto';
 }
+
 .header-container {
     display: flex;
     justify-content: space-between;
