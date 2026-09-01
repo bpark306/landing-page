@@ -47,7 +47,7 @@ a {
 }
 
 .main-text {
-    width: 300px;
+    width: 400px;
 }
 .section-1 {
     display: flex;
@@ -81,9 +81,22 @@ button {
     border-radius: 8px;
     color: white;
     flex: 0 0 auto;
-    width: 112px;
+    width: 120px;
 }
 
+.main-text, .secondary-text {
+    margin: 0 0 8px 0;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8
+}
+.secondary-text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
 img {
     width: auto;
     height: 250px;
