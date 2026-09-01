@@ -18,13 +18,17 @@ a {
     text-decoration: none;
 }
 .header {
-    padding: 0px 72px;
     height: 72px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 832px;
 }
-
 .footer {
     height: 72px;
     display: flex;
@@ -52,9 +56,8 @@ a {
 .section-1 {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 0px 72px;
     gap: 32px;
 }
 
@@ -85,7 +88,7 @@ button {
 }
 
 .main-text, .secondary-text {
-    margin: 0 0 8px 0;
+    margin: 0 0 16px 0;
 }
 
 .main-text {
@@ -99,5 +102,5 @@ button {
 }
 img {
     width: auto;
-    height: 250px;
+    height: 225px;
 }
