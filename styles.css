@@ -130,7 +130,8 @@ button {
 
 .item-container {
     display: flex;
-    gap: 40px;
+    justify-content: space-evenly;
+    width: 832px;
 }
 
 .item {
