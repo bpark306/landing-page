@@ -88,11 +88,13 @@ a {
     align-items: center;
 
 }
-.section-3 {
+.section-3, .section-4 {
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+
 
 .section-1 button {
     border: none;
@@ -106,6 +108,7 @@ button {
     flex: 0 0 auto;
     width: 110px;
     font-weight: bold;
+    border: none;
 }
 
 .main-text, .secondary-text {
@@ -173,4 +176,33 @@ button {
     font-weight: bold;
     margin-left: auto;
     padding-right: 50px;
+}
+
+.modal {
+    border-radius: 15px;
+    background-color: #3882F6;
+    width: 832px;
+    height: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 0 1 auto;
+}
+
+.modal-heading {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.modal-subtext {
+    margin-left: 20px;
+}
+
+
+.modal button {
+    border: 2px solid white;
+    margin-left: 5px;
+    margin-right: 20px;
 }
